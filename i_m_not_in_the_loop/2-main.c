@@ -2,6 +2,6 @@
 
 int main(void)
 {
-    print_z();
-    return (0);
+  print_tebahpla();
+  return (0);
 }
