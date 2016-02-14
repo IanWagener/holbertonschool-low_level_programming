@@ -3,7 +3,6 @@
 void print_number(int n)
 {
   int ncopy=n;
-  int numdigit;
   int power=1;
   int charint;
   
@@ -12,13 +11,13 @@ void print_number(int n)
       ncopy=ncopy*-1;
       print_char('-');
     }
-  for (numdigit=0; ncopy > 0; numdigit++)
+   for (; ncopy > 0;)
     {
       ncopy=ncopy/10;
       power=power*10;
     }
-  power=power/10;
-  if (0 > n)
+  power=power/10; 
+ if (0 > n)
     {
       n=n*-1;
       
