@@ -6,7 +6,7 @@ void triangles_in_the_term(int h, int n)
 
   for(amount=1; amount <= n; amount++) {
     for (height=1; height <= h ; height++) {
-      for (space=h-height; space >= 0; space--) {
+      for (space=h-height; space >= 1; space--) {
 	print_char(' ');
       }
       for (width=1; width <= height * 2 - 1; width++) {
