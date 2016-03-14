@@ -1,0 +1,9 @@
+int first_digit(int n)
+{
+  /*declaring variables*/
+  int ncopy=n;
+  int power=1;
+  int divide;
+  
+  for 
+}

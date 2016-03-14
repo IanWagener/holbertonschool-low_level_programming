@@ -1,0 +1,11 @@
+int print_char(char c);
+
+void print_string_half(char *str)
+{
+  int length=5;
+  
+  while (str > length) {
+    print_char(*str);
+    str++;
+  }
+}
