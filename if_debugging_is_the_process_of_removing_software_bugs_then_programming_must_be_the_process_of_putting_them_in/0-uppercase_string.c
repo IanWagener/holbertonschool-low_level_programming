@@ -1,9 +1,13 @@
-char *uppercase_string(char *)
+char *uppercase_string(char *i)
 {
-  if ( >= 97 &&  <= 122){
-    return ( - 32);
+  int n;
+
+  while(*i) {
+    if (*i >= 97 && *i <= 122) {
+      *i = *i - 32;
+    }
+    i++;
+    n++;
   }
-  else {
-    return ();
-  }
+    return&(i[-n]);
 }
