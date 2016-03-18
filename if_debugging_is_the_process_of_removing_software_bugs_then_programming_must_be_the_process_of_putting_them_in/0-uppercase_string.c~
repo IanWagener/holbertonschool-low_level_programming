@@ -1,0 +1,9 @@
+char *uppercase_string(char *)
+{
+  if (*p >= 97 && *p <= 122){
+    return (*p - 32);
+  }
+  else {
+    return (*p);
+  }
+}
