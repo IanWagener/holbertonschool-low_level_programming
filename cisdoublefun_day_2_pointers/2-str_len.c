@@ -4,8 +4,7 @@ int str_len(char *s)
 {
   int length=0;
 
-  while(*s) {
-    s++;
+  while(s[length]) {
     length++;
   }
   return(length);
