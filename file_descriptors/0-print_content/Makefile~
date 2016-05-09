@@ -1,0 +1,5 @@
+FILE=argc
+VARIABLE=`cat $(FILE)`
+
+target:
+    echo $(VARIABLE)
