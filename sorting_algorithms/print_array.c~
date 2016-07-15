@@ -1,6 +1,7 @@
 int print_char(char);
 #include <stdio.h>
 
+/*This funciton */
 void print_array(int *array, int size){
 
   int i;
